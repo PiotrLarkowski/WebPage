@@ -15,7 +15,6 @@
 		<a href="OMnie.php"><input type="submit" value=" " id="OMNIE"></a>
 		<a href="Kategorie.php"><input type="submit" value=" " id="Kategorie"></a>
 		<a href="galeria.php"><input type="submit" value=" " id="Galeria"></a>
-		<a href="cennik.php"><input type="submit" value=" " id="Cennik"></a>
 		<a href="kontakt.php"><input type="submit" value=" " id="Kontakt"></a>
 	</div>
 	<div id="containerOMnie">

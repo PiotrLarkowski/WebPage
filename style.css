@@ -28,12 +28,119 @@ input{
 	margin-right:auto;
 	width: 45%;
 }
+#container{
+	margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
 #frontImages{
-	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	width: 70%;
+	width: 80%;
     height: 440;
+}
+#ImagesRodzinneIPokoleniowe{
+	width:750px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#ImagesRoczkowe{
+	width:750px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#ContentRoczkoweUnderPhoto{
+	padding:10px;
+	width:700px;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+#ContentRodzinneIPokolenioweUnderPhoto{
+	padding:10px;
+	width:700px;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;	
+}
+#FirstImageRodzinneIPokoleniowe{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#SecondImageRodzinneIPokoleniowe{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#ThirdImageRodzinneIPokoleniowe{
+	float:left;
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#FirstImageRoczkowe{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#SecondImageRoczkowe{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#ThirdImageRoczkowe{
+	float:left;
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#FirstContentUnderPhoto{
+	float:left;
+	width:25%;
+	height:300px;
+	margin:25px;
+	font-size:25px;
+	font-family:Ink Free;
+}
+#SecondContentUnderPhoto{
+	font-size:25px;
+	font-family:Ink Free;
+	float:left;
+	width:25%;
+	height:300px;
+	margin:25px;
+}
+#ThirdContentUnderPhoto{
+	font-size:25px;
+	font-family:Ink Free;
+	float:left;
+	width:25%;
+	height:300px;
+	margin:25px;
+}
+#CzytajDalej{
+	width:200px;
+	margin:auto;
+	cursor: pointer;
 }
 #imageFront{
 	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
@@ -91,18 +198,11 @@ input{
 	background-image:url('fotoWloszkaImage/Buttons/Kontakt.jpg');
 }
 #categorie{
-	
 	background-color:grye;
 	height:100%;
 	width:50px;
 }
-#container{
-	float:left;
-	text-align: justify;
-	margin-left:20%;
-	margin-right:20%;
-	width:60%;
-}
+
 #pictureKarolina{
 	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
 	border: 5px solid #555;
@@ -138,6 +238,43 @@ input{
 	width:20px;
 	height:20px;
 }
+#FirstInnerCategoryButton{
+	text-align: center;
+	margin-left:35%;
+	margin-right:35%;
+	cursor: pointer;
+	height:30px;
+	background-color:black;
+	color:white;
+}
+#SecondInnerCategoryButton{
+	text-align: center;
+	margin-left:35%;
+	margin-right:35%;
+	cursor: pointer;
+	height:30px;
+	background-color:grey;
+}
+#DniaDzieckaContent{
+	font-size:25px;
+	font-family:Ink Free;
+	color:white;
+	text-align:center;
+}
+#DniaMamyContent{
+	font-size:25px;
+	font-family:Ink Free;
+	color:white;
+	text-align:center;
+}
+#UrodzinContent{
+	font-size:25px;
+	font-family:Ink Free;
+	color:white;
+	text-align:center;
+}
+
+
 #RodzinneIPokolenioweContent{
 	font-size:25px;
 	font-family:Ink Free;
@@ -168,7 +305,7 @@ input{
 	text-align:center;
 	color:black;
 }
-#ZOkazjiUrodzinContent{
+#ZOkazjiContent{
 	font-size:25px;
 	font-family:Ink Free;
 	color:black;

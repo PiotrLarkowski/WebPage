@@ -39,11 +39,31 @@ function RodzinneIPokolenioweEvent(){
 		category1Open = true;
 				document.getElementById("RodzinneIPokolenioweContent").innerHTML = 
 		"\"<b>Rodzina - tu zaczyna się życie, a miłość nigdy nie kończy \"<br /><br /></b>"+
-		"Sesje rodzinne i pokoleniowe to wspólnie spędzone chwile, to fotografie, które pokażą to, co nienamacalne — uczucia, które Was łączą, emocje... <br /><br />"+
-		"Otrzymacie ode mnie piękna pamiątkę w postaci profesjonalnych zdjęć rodzinnych <br /><br /></span>"+
-		"Czytaj dalej... </p>"
-		window.scrollTo(0, 1000);
+		"Ta sesja to przede wszystkim wspólne spędzone chwile.</br>"+
+		"To fotografie, które pokażą to, co nienamacalne - uczucia, które was łączą, emocje, miłość i bliskość...</br>"+
+		"To cudowna pamiątka, na której na chwile zatrzymamy czas żeby potem zawsze móc wrócić do tych momentów</br>"+
+		"<div id='ImagesRodzinneIPokoleniowe'><div id='FirstImageRodzinneIPokoleniowe'></div>"+
+		"<div id='SecondImageRodzinneIPokoleniowe'></div>"+
+		"<div id='ThirdImageRodzinneIPokoleniowe'></div></div></br>"+
+		"<div id='ContentRodzinneIPokolenioweUnderPhoto'><div id='FirstContentUnderPhoto'>Pakiet MINI </br>CENA 200zł</br>-5 zdjęć w wersji elektronicznej</br>-jedno zjędie A4</br>-ok. 30 minut sesji</div>"+
+		"<div id='SecondContentUnderPhoto'>Pakiet STANDARD </br> CENA 350zł</br>- 10 zdjęć w wersji elektronicznej </br> - 5 zdjęć A4 </br>-5 zdjęć A5</br>- ok. 30 minut sesji </div>"+
+		"<div id='ThirdContentUnderPhoto'>Pakiet FULL</br>CENA 500zł</br>-25 zdjęć w wersji elektronicznej </br>-5 zdjęć A4</br>-5 zdjęć A5</br>-10 zdjęć 10x15</br>-ok. 45 minut sesji</div></div>"+
+		"Dodatkowe zdjęcie 15zł za sztukę</br></br>"+
+		"<div id='CzytajDalej' onclick='CzytajDalejEvent()'><b>Czytaj dalej... </b></br></div>"+
+		"<div id='CzytajDalejCD'></div></br>"
+		window.scrollTo(0, 0);
 	}	
+}
+function CzytajDalejEvent(){
+	document.getElementById("CzytajDalejCD").innerHTML = 
+	"<p><span>&emsp; Podczas rozmowy omówimy wszystkie szczegóły</br></br>"+
+	"<b>Jak przygotować się do sesji?</b></br></br>"+ 
+	"Ważną kwestią jest ubiór.</br>"+
+	"Jeżeli sesje wykonujemy w studio proponuje stonowane kolory jak biały, kremowy czy beż</br>"+ 
+	"Nie nażucam Wam konkretnego stylu. Ważna jest jednak spójność</br>"+
+	"Jeżeli sesja odbywa się w plenerze, warto ubrać się w podobnym stylu</br>"+  
+	"Wszystko zależy też od pory roku i pogody na dworze</br></br>"+
+	"<u><a href='kontakt.php'>ZAPRASZAM DO KONTAKTU</u></a></br></p></span>"
 }
 function RoczkoweEvent(){
 	if(category2Open)
@@ -53,10 +73,15 @@ function RoczkoweEvent(){
 	}else{
 		category2Open = true;
 		document.getElementById("RoczkoweContent").innerHTML = 
-		"<p><span>&emsp; Pierwsze urodziny dziecka to wyjątkowy i pełen emocji dzień, który wymaga odpowiedniej oprawy."+
-		"Sesja na roczek, to wspaniała pamiątka dla dziecka i rodziców, z tych pierwszych i najważniejszych urodzin ."+ 
-		" Sesja roczkowa to też zawsze duże wyzwanie dla fotografa, gdyż dzieci w tym wieku nie potrafią usiedzieć w jednym miejscu. Są pełne energii, spontaniczne i nieprzewidywalne. </p></span>"
-		window.scrollTo(0, 1000);
+		"<p><span>&emsp; Pierwsze urodziny dziecka to wyjątkowy i pełen emocji dzień, który wymaga odpowiedniej oprawy.</br>"+
+		"Zdjęcia z tej okazji, to wspaniała pamiątka dla dziecka i rodziców, z tych pierwszych i najważniejszych urodzin."+ 
+		" Sesja roczkowa to też zawsze duże wyzwanie dla fotografa, gdyż dzieci w tym wieku nie potrafią usiedzieć w jednym miejscu. Są pełne energii, spontaniczne i nieprzewidywalne. </p></span>"+
+		"<div id='ImagesRoczkowe'><div id='FirstImageRoczkowe'></div>"+
+		"<div id='SecondImageRoczkowe'></div>"+
+		"<div id='ThirdImageRoczkowe'></div></div></br>"+
+		"<div id='ContentRoczkoweUnderPhoto'>Pakiet MINI </br>CENA 200zł</br>-5 zdjęć w wersji elektronicznej</br>-jedno zjędie A4</br>-ok. 30 minut sesji</div>"+
+		"<u><a href='kontakt.php'>ZAPRASZAM DO KONTAKTU</u></a></br>"
+		window.scrollTo(0, 0);
 	}
 }
 function BrzuszkoweEvent(){
@@ -191,18 +216,36 @@ function PakietEvent(){
 		window.scrollTo(0, 1000);
 	}
 }
-function ZOkazjiUrodzinEvent(){
+function ZOkazjiEvent(){
 	if(category11Open)
 	{
-		document.getElementById("ZOkazjiUrodzinContent").innerHTML = "";
+		document.getElementById("ZOkazjiContent").innerHTML = "";
 		category11Open = false;
 	}else{
 		category11Open = true;
-		document.getElementById("ZOkazjiUrodzinContent").innerHTML = 
-		"<p><span>&emsp;Nie tylko Roczek jest ważny! Dla dziecka każde urodziny to wyczekiwany i wyjątkowy dzień!<br />"+
-		"Dlaczego nie zrobić sesji fotograficznej z tej okazji? <br />"+
-		"Dzieci uwielbiają pozować i uwielbiają być w centrum uwagi  <br />"+
-		"Na pewno będzie to cudowny prezent i wspaniała pamiątka na lata </span></p>"
+		document.getElementById("ZOkazjiContent").innerHTML = 
+		"<div id='FirstInnerCategoryButton' onclick='DniaDzieckaEvent()'><div id='WhiteSquare'></div>Dnia dziecka</div><br />"+
+		"<div id='DniaDzieckaContent'></div>"+
+		"<div id='SecondInnerCategoryButton' onclick='DniaMamyEvent()'><div id='WhiteSquare'></div>Dnia Mamy</div><br />"+
+		"<div id='DniaMamyContent'></div>"+
+		"<div id='FirstInnerCategoryButton' onclick='UrodzinEvent()'><div id='WhiteSquare'></div>Urodzin</div><br />"+
+		"<div id='UrodzinContent'></div>"
+//		"<p><span>&emsp;Nie tylko Roczek jest ważny! Dla dziecka każde urodziny to wyczekiwany i wyjątkowy dzień!<br />"+
+//		"Dlaczego nie zrobić sesji fotograficznej z tej okazji? <br />"+
+//		"Dzieci uwielbiają pozować i uwielbiają być w centrum uwagi  <br />"+
+//		"Na pewno będzie to cudowny prezent i wspaniała pamiątka na lata </span></p>"
+		window.scrollTo(0, 1000);
+	}
+}
+function DniaDzieckaEvent(){
+	if(category11Open)
+	{
+		document.getElementById("DniaDzieckaContent").innerHTML = "";
+		category11Open = false;
+	}else{
+		category11Open = true;
+		document.getElementById("DniaDzieckaContent").innerHTML = "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+
 		window.scrollTo(0, 1000);
 	}
 }
