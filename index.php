@@ -22,7 +22,7 @@
 	<div id="frontImages">
 		<div id="imageFront"><div id="picture"></div></div>
 		<div id="imageFront"><div id="picture2"></div></div>
-		<div id="imageFront"><div id="picture3"></div></div>
+		<div id="imageFront"><div id="picture3"></div></div> 	
 	</div>
 	<div id="cytat">
 		"Prawdziwa pasja, która płonie w Twojej duszy, to taka, której nigdy nie mozna zgasić"

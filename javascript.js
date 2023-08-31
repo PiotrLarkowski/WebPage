@@ -1,5 +1,4 @@
-var maxNumberOfPictures = 3;
-var randomNumber = Math.floor(Math.random()*maxNumberOfPictures)+1;
+var maxNumberOfPictures = 5;
 var category1Open = false;
 var category2Open = false;
 var category3Open = false;
@@ -14,20 +13,42 @@ var category11Open = false;
 var category12Open = false;
 
 function countdown(){
-	var today = new Date();
 	
-	var hour = today.getHours();
-	var minute = today.getMinutes();
-	var second = today.getSeconds();
+	for (let i = 0; ; i++) {
+	randomFirstNumber = Math.floor(Math.random()*maxNumberOfPictures)+1;
+		if(previousPicture1 != randomFirstNumber){
+			break;
+		}
+	}
+	for (let i = 0; ; i++) {
+	randomSecondNumber = Math.floor(Math.random()*maxNumberOfPictures)+6;
+		if(previousPicture2 != randomSecondNumber){
+			break;
+		}
+	}
+	for (let i = 0; ; i++) {
+	randomThirdNumber = Math.floor(Math.random()*maxNumberOfPictures)+11;
+		if(previousPicture3 != randomThirdNumber){
+			break;
+		}
+	}
+	
+	var previousPicture1 = randomFirstNumber;
+	var previousPicture2 = randomSecondNumber;
+	var previousPicture3 = randomThirdNumber;
+	
+	var file1 = "<img src=\"fotoWloszkaImage/kategorie/main/png/" + randomFirstNumber + ".png\" />"
+	var file2 = "<img src=\"fotoWloszkaImage/kategorie/main/png/" + randomSecondNumber + ".png\" />"
+	var file3 = "<img src=\"fotoWloszkaImage/kategorie/main/png/" + randomThirdNumber + ".png\" />"
 	
 	document.getElementById("picture").innerHTML = 
-	hour+":"+minute+":"+second;
+	file1;
 	document.getElementById("picture2").innerHTML = 
-	hour+":"+minute+":"+second;
+	file2;
 	document.getElementById("picture3").innerHTML = 
-	hour+":"+minute+":"+second;
+	file3;
 
-	setTimeout("countdown()",1000);
+	setTimeout("countdown()",7000);
 }
 
 function RodzinneIPokolenioweEvent(){
@@ -42,7 +63,8 @@ function RodzinneIPokolenioweEvent(){
 		"Ta sesja to przede wszystkim wspólne spędzone chwile.</br>"+
 		"To fotografie, które pokażą to, co nienamacalne - uczucia, które was łączą, emocje, miłość i bliskość...</br>"+
 		"To cudowna pamiątka, na której na chwile zatrzymamy czas żeby potem zawsze móc wrócić do tych momentów</br>"+
-		"<div id='ImagesRodzinneIPokoleniowe'><div id='FirstImageRodzinneIPokoleniowe'></div>"+
+		"<div id='ImagesRodzinneIPokoleniowe'>"+
+		"<div id='FirstImageRodzinneIPokoleniowe'></div>"+
 		"<div id='SecondImageRodzinneIPokoleniowe'></div>"+
 		"<div id='ThirdImageRodzinneIPokoleniowe'></div></div></br>"+
 		"<div id='ContentRodzinneIPokolenioweUnderPhoto'><div id='FirstContentUnderPhoto'>Pakiet MINI </br>CENA 200zł</br>-5 zdjęć w wersji elektronicznej</br>-jedno zjędie A4</br>-ok. 30 minut sesji</div>"+
@@ -76,9 +98,11 @@ function RoczkoweEvent(){
 		"<p><span>&emsp; Pierwsze urodziny dziecka to wyjątkowy i pełen emocji dzień, który wymaga odpowiedniej oprawy.</br>"+
 		"Zdjęcia z tej okazji, to wspaniała pamiątka dla dziecka i rodziców, z tych pierwszych i najważniejszych urodzin."+ 
 		" Sesja roczkowa to też zawsze duże wyzwanie dla fotografa, gdyż dzieci w tym wieku nie potrafią usiedzieć w jednym miejscu. Są pełne energii, spontaniczne i nieprzewidywalne. </p></span>"+
-		"<div id='ImagesRoczkowe'><div id='FirstImageRoczkowe'></div>"+
+		"<div id='ImagesRoczkowe'>"+
+		"<div id='FirstImageRoczkowe'></div>"+
 		"<div id='SecondImageRoczkowe'></div>"+
-		"<div id='ThirdImageRoczkowe'></div></div></br>"+
+		"<div id='ThirdImageRoczkowe'></div>"+
+		"</div></br>"+
 		"<div id='ContentRoczkoweUnderPhoto'>Pakiet MINI </br>CENA 200zł</br>-5 zdjęć w wersji elektronicznej</br>-jedno zjędie A4</br>-ok. 30 minut sesji</div>"+
 		"<u><a href='kontakt.php'>ZAPRASZAM DO KONTAKTU</u></a></br>"
 		window.scrollTo(0, 0);
@@ -94,7 +118,11 @@ function BrzuszkoweEvent(){
 		document.getElementById("BrzuszkoweContent").innerHTML = 
 		"<p><span>&emsp;\"Ciąża - dziewięć miesięcy stwarzania świata\" <br />"+
 		"Sesja brzuszkowa to wyjątkowa pamiątka. Pamiątka zwłaszcza dla przyszłej mamy. Tak jak ciąża jest cudownym okresem, cudownym przeżyciem, cudowna chwilą... Kiedy słyszymy pierwszy raz bicie serduszka zaraz po naszym. Kiedy widzimy maleńkie rączki na USG lub Kiedy czujemy lekkie kopnięcia - to uczucie jest niesamowite. To chwile warte zapamiętania. <br />"+
-		"Sesja ciążowa beszie pamiątka, która ma na celu zatrzymanie czasu w tym cudownym momencie, która pokaże Waszą bliskość do tej maleńkiej kruszynki, która zaraz przyjdzie na świat</p>"
+		"Sesja ciążowa beszie pamiątka, która ma na celu zatrzymanie czasu w tym cudownym momencie, która pokaże Waszą bliskość do tej maleńkiej kruszynki, która zaraz przyjdzie na świat"+
+		"<div id='ImagesBrzuszkowe'>"+
+		"<div id='FirstImageBrzuszkowe'></div>"+
+		"<div id='SecondImageBrzuszkowe'></div>"+
+		"<div id='ThirdImageBrzuszkowe'></div></div></p>"
 		window.scrollTo(0, 1000);
 	}
 }
@@ -106,7 +134,10 @@ function NoworodkoweEvent(){
 	}else{
 		category4Open = true;
 		document.getElementById("NoworodkoweContent").innerHTML = 
-		"<p><span>&emsp;SESJE NOWORODKOWE LIFESTYLE, to szczególny rodzaj sesji. Ja preferuję naturalne kadry, gdzie widać Waszą miłość, bliskość i szczęście. Najpiękniejsze zdjęcia zawsze wychodzą w ramionach rodziców, w naturalnym świetle, gdzie jest ciepło, przytulnie i bezpiecznie. Mogę wykonać taką sesję u mnie w domowym studio, jednak uważam, że u Was w domu będzie ona przebiegać spokojniej. Dlaczego? Są to Wasze cztery ściany, gdzie pełno jest detali i drobiazgów oddających Wasz charakter, styl i indywidualizm. W dodatku jest to przestrzeń, którą pociecha już zna, i w której czuje się bezpiecznie, a to jest bardzo ważne! Dołożę wszelkich starań abyście się czuli komfortowo</p>"
+		"<p><span>&emsp;SESJE NOWORODKOWE LIFESTYLE, to szczególny rodzaj sesji. Ja preferuję naturalne kadry, gdzie widać Waszą miłość, bliskość i szczęście. Najpiękniejsze zdjęcia zawsze wychodzą w ramionach rodziców, w naturalnym świetle, gdzie jest ciepło, przytulnie i bezpiecznie. Mogę wykonać taką sesję u mnie w domowym studio, jednak uważam, że u Was w domu będzie ona przebiegać spokojniej. Dlaczego? Są to Wasze cztery ściany, gdzie pełno jest detali i drobiazgów oddających Wasz charakter, styl i indywidualizm. W dodatku jest to przestrzeń, którą pociecha już zna, i w której czuje się bezpiecznie, a to jest bardzo ważne! Dołożę wszelkich starań abyście się czuli komfortowo</p>"+
+		"<div id='FirstImageNoworodkowe'></div>"+
+		"<div id='SecondImageNoworodkowe'></div>"+
+		"<div id='ThirdImageNoworodkowe'></div>"
 		window.scrollTo(0, 1000);
 	}
 }
@@ -261,11 +292,3 @@ function InneEvent(){
 	}
 }
 
-function slaidBar(){
-	randomNumber = Math.floor(Math.random()*maxNumberOfPictures)+1;
-	meter++;
-	if (meter>3)meter=1;
-	var file = "<img scr=\"photoWloszkaImage/picturesFirst/picture" + meter + ".png\" />"
-	document.getElementById(picture).innerHTML = file;
-	setTimeout("slaidBar()",5000);
-}
