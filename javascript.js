@@ -135,9 +135,10 @@ function NoworodkoweEvent(){
 		category4Open = true;
 		document.getElementById("NoworodkoweContent").innerHTML = 
 		"<p><span>&emsp;SESJE NOWORODKOWE LIFESTYLE, to szczególny rodzaj sesji. Ja preferuję naturalne kadry, gdzie widać Waszą miłość, bliskość i szczęście. Najpiękniejsze zdjęcia zawsze wychodzą w ramionach rodziców, w naturalnym świetle, gdzie jest ciepło, przytulnie i bezpiecznie. Mogę wykonać taką sesję u mnie w domowym studio, jednak uważam, że u Was w domu będzie ona przebiegać spokojniej. Dlaczego? Są to Wasze cztery ściany, gdzie pełno jest detali i drobiazgów oddających Wasz charakter, styl i indywidualizm. W dodatku jest to przestrzeń, którą pociecha już zna, i w której czuje się bezpiecznie, a to jest bardzo ważne! Dołożę wszelkich starań abyście się czuli komfortowo</p>"+
+		"<div id='ImagesNoworodkowe'>"+
 		"<div id='FirstImageNoworodkowe'></div>"+
 		"<div id='SecondImageNoworodkowe'></div>"+
-		"<div id='ThirdImageNoworodkowe'></div>"
+		"<div id='ThirdImageNoworodkowe'></div></div>"
 		window.scrollTo(0, 1000);
 	}
 }
@@ -160,7 +161,11 @@ function SwiateczneEvent(){
 		"A może w prezencie sesja zdjęciowa? <br />"+
 		"Sesje Bożonarodzeniowe są coraz bardziej popularne i corsz wiecej osób chciałoby mieć takie piękne, świąteczne ujęcia w swoich albumach.  <br />"+
 		"Nie zabrakło ich i w mojej ofercie. <br />"+
-		"Pełne uroku dziecięce lub rodzinne ujęcia, wypełnione magią scenki, gdzie czuć już zapach pierniczków..., mnóstwo zabawy oraz kadry pełne uścisków... Poczujmy magię świat nieco wcześniej.</p><br />"
+		"Pełne uroku dziecięce lub rodzinne ujęcia, wypełnione magią scenki, gdzie czuć już zapach pierniczków..., mnóstwo zabawy oraz kadry pełne uścisków... Poczujmy magię świat nieco wcześniej.</p><br />"+
+		"<div id='ImagesSwiateczne'>"+
+		"<div id='FirstImageSwiateczne'></div>"+
+		"<div id='SecondImageSwiateczne'></div>"+
+		"<div id='ThirdImageSwiateczne'></div></div>"
 		window.scrollTo(0, 1000);
 	}
 }
@@ -173,7 +178,11 @@ function KomuniaEvent(){
 		category6Open = true;
 		document.getElementById("KomuniaContent").innerHTML = 
 		"<p><span>&emsp;Pierwsza komunia święta to jeden z najważniejszych sakramentów świętych. Jest to wielkie przeżycie nie tylko dla dziecka, ale i dla jego rodziny. <br /> "+
-		"Sesja zdjęciowa z okazji tego pięknego dnia to wspaniała pamiątka, która zostanie w pamięci dziecka na długie lata.</p>"
+		"Sesja zdjęciowa z okazji tego pięknego dnia to wspaniała pamiątka, która zostanie w pamięci dziecka na długie lata.</p>"+
+		"<div id='ImagesKomunia'>"+
+		"<div id='FirstImageKomunia'></div>"+
+		"<div id='SecondImageKomunia'></div>"+
+		"<div id='ThirdImageKomunia'></div></div>"
 		window.scrollTo(0, 1000);
 	}
 }
@@ -187,7 +196,11 @@ function ZOkazjiChrztuEvent(){
 		document.getElementById("ZOkazjiChrztuContent").innerHTML = 
 		"<p><span>&emsp;Chrzest Święty to pierwsze wyjątkowe wydarzenie w życiu Waszego maleństwa. Warto zadbać, by zdjęcia z tego dnia były obrazami, które przyniosą wiele emocji i cudownych wspomnień nawet po latach. <br />"+
 		"Proponuję minisesję w domu, podczas ubierania maleństwa, kilka zdjęć portretowych, kilka drobiazgowych (np. zdjęcia ubranka, świecy, itp.) oraz zdjęcia z najbliższymi. <br />"+
-		"Pakiet można rozszerzyć do kilku zdjęć podczas ceremonii w kościele oraz kilku zdjęć z przyjęcia. Wszystko zależy od Was. Zapraszam do kontaktu.</p>"
+		"Pakiet można rozszerzyć do kilku zdjęć podczas ceremonii w kościele oraz kilku zdjęć z przyjęcia. Wszystko zależy od Was. Zapraszam do kontaktu.</p>"+
+		"<div id='ImagesZOkazjiChrztu'>"+
+		"<div id='FirstImageZOkazjiChrztu'></div>"+
+		"<div id='SecondImageZOkazjiChrztu'></div>"+
+		"<div id='ThirdImageZOkazjiChrztu'></div></div>"
 		window.scrollTo(0, 1000);
 	}
 }
@@ -218,7 +231,11 @@ function SesjaZdjeciowaEvent(){
 		"Koszt takiej sesji zależy od wybranego przez Was pakietu. Szczegóły ustalamy podczas rozmowy<br />"+
 		"● sesje należy zrealizować w ciągu 6 miesięcy od momentu zakupu<br />"+
 		"● zapłatę za sesje pobieram z góry (Zaproszenie jest w cenie takiej sesji) <br />"+
-		"● Zaproszenie naleY odebrać osobiście w umówionym wcześniej miejscu lub mogę je wysłać pocztą.</p>"
+		"● Zaproszenie naleY odebrać osobiście w umówionym wcześniej miejscu lub mogę je wysłać pocztą.</p>"+
+		"<div id='ImagesSesjaZdjeciowa'>"+
+		"<div id='FirstImageSesjaZdjeciowa'></div>"+
+		"<div id='SecondImageSesjaZdjeciowa'></div>"+
+		"<div id='ThirdImageSesjaZdjeciowa'></div></div>"
 		window.scrollTo(0, 1000);
 	}
 }
@@ -236,6 +253,10 @@ function PakietEvent(){
 		"- sesji noworodkowej lifestyle (do 21 dnia życia)<br />" +
 		"Dzięki rezerwacji dwóch sesji, przyszła mama ma możliwość otrzymania zdjęć, które będą wykonane w podobnej stylistyce i będą ze sobą współgrały. <br />"+
 		"Dodatkowo w pakiecie oczywiście taniej 😉 </p><br />"+
+		"<div id='ImagesBrzuszekMaluszek'>"+
+		"<div id='FirstImageBrzuszekMaluszek'></div>"+
+		"<div id='SecondImageBrzuszekMaluszek'></div>"+
+		"<div id='ThirdImageBrzuszekMaluszek'></div></div>"+
 		"<p><b>\"PAKIET „BĘDĘ MAMĄ” </b><br />"+
 		"Jest to połączenie trzech sesji:<br />"+
 		"- sesji kobiecej (początek ciąży, gdzie jeszcze nie widać brzuszka)<br />"+
@@ -243,6 +264,10 @@ function PakietEvent(){
 		"- sesji noworodkowej lifestyle (do 21 dnia życia)<br />"+
 		"W sesji tej chcę pokazać, jak zmienia się kobieta i jej ciało, jakie emocje jej towarzyszą w ciągu tych kilkunastu miesięcy. <br />"+
 		"Świetną dodatkową opcją tego pakietu jest zrobienie takich samych zdjęć w danym okresie, czyli „przed i po”. Przyszła mama ma możliwość otrzymania zdjęć, które będą wykonane w podobnej stylistyce i będą ze sobą współgrały.<br />"+
+		"<div id='ImagesBedeMama'>"+
+		"<div id='FirstImageBedeMama'></div>"+
+		"<div id='SecondImageBedeMama'></div>"+
+		"<div id='ThirdImageBedeMama'></div></div>"+
 		"Dodatkowo w pakiecie oczywiście taniej 😉</p>"
 		window.scrollTo(0, 1000);
 	}
@@ -261,10 +286,6 @@ function ZOkazjiEvent(){
 		"<div id='DniaMamyContent'></div>"+
 		"<div id='FirstInnerCategoryButton' onclick='UrodzinEvent()'><div id='WhiteSquare'></div>Urodzin</div><br />"+
 		"<div id='UrodzinContent'></div>"
-//		"<p><span>&emsp;Nie tylko Roczek jest ważny! Dla dziecka każde urodziny to wyczekiwany i wyjątkowy dzień!<br />"+
-//		"Dlaczego nie zrobić sesji fotograficznej z tej okazji? <br />"+
-//		"Dzieci uwielbiają pozować i uwielbiają być w centrum uwagi  <br />"+
-//		"Na pewno będzie to cudowny prezent i wspaniała pamiątka na lata </span></p>"
 		window.scrollTo(0, 1000);
 	}
 }

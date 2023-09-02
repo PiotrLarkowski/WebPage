@@ -20,18 +20,18 @@ input{
 	margin-left:40;
 }
 #nav{ 
+	width: 45%;
 	display:block;
 	padding:10;
 	padding-top:50;
 	padding-bottom:50;
 	margin-left:auto;
 	margin-right:auto;
-	width: 45%;
 }
 #container{
 	margin-left: auto;
     margin-right: auto;
-    width: 70%;
+    width: 75%;
 }
 #frontImages{
 	margin-left:auto;
@@ -57,6 +57,48 @@ input{
 	margin-left:auto;
 	margin-right:auto;
 }
+#ImagesNoworodkowe{
+	width:750px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#ImagesSwiateczne{
+	width:750px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#ImagesKomunia{
+	width:750px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#ImagesZOkazjiChrztu{
+	width:750px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#ImagesSesjaZdjeciowa{
+	width:750px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#ImagesBrzuszekMaluszek{
+	width:750px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#ImagesBedeMama{
+	width:750px;
+	height:150px;
+	margin-left:auto;
+	margin-right:auto;
+}
 #ContentRoczkoweUnderPhoto{
 	padding:10px;
 	width:700px;
@@ -71,8 +113,6 @@ input{
 	margin-left:auto;
 	margin-right:auto;	
 }
-
-
 
 #FirstImageRodzinneIPokoleniowe{
 	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
@@ -149,6 +189,180 @@ input{
 	height:100px;
 }
 
+#FirstImageNoworodkowe{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#SecondImageNoworodkowe{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#ThirdImageNoworodkowe{
+	float:left;
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+
+#FirstImageSwiateczne{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#SecondImageSwiateczne{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#ThirdImageSwiateczne{
+	float:left;
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+
+#FirstImageKomunia{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#SecondImageKomunia{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#ThirdImageKomunia{
+	float:left;
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+
+#FirstImageZOkazjiChrztu{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#SecondImageZOkazjiChrztu{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#ThirdImageZOkazjiChrztu{
+	float:left;
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+
+#FirstImageSesjaZdjeciowa{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#SecondImageSesjaZdjeciowa{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#ThirdImageSesjaZdjeciowa{
+	float:left;
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+
+#FirstImageBrzuszekMaluszek{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#SecondImageBrzuszekMaluszek{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#ThirdImageBrzuszekMaluszek{
+	float:left;
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+
+#FirstImageBedeMama{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#SecondImageBedeMama{
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	float:left;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
+#ThirdImageBedeMama{
+	float:left;
+	background-image: url('fotoWloszkaImage/szaryMarmur.jpg');
+	margin:20px;
+	border: 5px solid #555;
+	width:200px;
+	height:100px;
+}
 
 #FirstContentUnderPhoto{
 	float:left;
